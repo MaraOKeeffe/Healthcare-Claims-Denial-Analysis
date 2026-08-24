@@ -46,7 +46,9 @@ Variables included:
 - There is no clear pattern of denial between essential hypertension and orthopedic surgery; rather, essential hypertension appears the most in the dataset and is not a specific reason for orthopedic surgery denials
 
 ## Power BI Dashboard
+![screenshot of dashboard](claims_denials_outcomes.png)
+- Denial rate and denial amount scatterplot: compares denial rate with denied claim value across ICD-10 diagnoses to identify whether diagnoses with higher denial rates also account for greater dollar value in denied claims
 - Denials by documentation completeness stacked column chart: displays the breakdown of paid, partially paid, pending, and denied claims across documentation completeness levels, making changes in claim outcome visible as documentation completeness increases
 - Decomposition tree: Enables exploration of denied claim value across provider specialty, denial reason code, primary ICD-10 code, and payer type to identify patterns and investigate potential contributors to denials
 - Denials by diagnosis clustered bar chart: compares claim volume, denied claims, and denial rate across ICD-10 diagnoses to provide context for whether high denial counts reflect greater denial risk or simply higher claim volume
-- Denial rate and denial amount scatterplot: compares denial rate with denied claim value across ICD-10 diagnoses to identify whether diagnoses with higher denial rates also account for greater dollar value in denied claims
+
