@@ -1,0 +1,6 @@
+Counts claims with a resolved outcome including claims considered paid, denied, and partial-pay
+Adjudicated Claims = 
+CALCULATE(
+    COUNTROWS('claims_main - claims_main csv (1)'),
+    'claims_main - claims_main csv (1)'[outcome] <> "pending"
+)
