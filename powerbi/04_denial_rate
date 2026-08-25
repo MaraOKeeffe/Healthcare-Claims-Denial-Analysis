@@ -1,0 +1,3 @@
+Calculates denied claims as a percentage of adjudicated claims. Pending claims are excluded from the denominator
+Denial Rate = 
+DIVIDE([Denied Claims], [Adjudicated Claims])
