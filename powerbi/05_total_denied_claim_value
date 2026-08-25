@@ -1,6 +1,0 @@
-Calculates total claim value associated with claims that received a "denied" outcome
-Total Denied Claim Value = 
-CALCULATE(
-    SUM('claims_main - claims_main csv (1)'[claim_amount_usd]),
-    'claims_main - claims_main csv (1)'[outcome] = "denied"
-)
