@@ -1,5 +1,4 @@
-Similar to Query 5, I controlled for documentation completeness when calculating denied claims based on payer type. The results are strikingly similar to Query 5. Payers consistently denied low documentation completeness at nearly 100% and denied high documentation completeness at almost 0%. Denial rates in the medium band sit in the 36.5% to 38.2% range, further confirming that documentation completeness, and not payer type, is the main driving force in claims denials.
-  WITH banded AS (
+I grouped documentation completeness into three bands when calculating denial rates by payer type. The bands are the same as those used in the query examining provider specialty and documentation completeness. Payers consistently denied claims with low documentation completeness at nearly 100%, while claims with high documentation completeness were denied at almost 0%. Denial rates in the medium band ranged from 36.5% to 38.2% across payers, suggesting that documentation completeness has a stronger association with claim denial than payer type in this dataset.
   SELECT
     payer_type,
     outcome,
