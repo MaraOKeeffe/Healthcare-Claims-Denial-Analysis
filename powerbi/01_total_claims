@@ -1,0 +1,1 @@
+Total Claims = COUNTROWS('claims_main - claims_main csv (1)')
