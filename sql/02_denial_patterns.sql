@@ -1,4 +1,4 @@
-Documentation completeness may be associated with claim denials. I calculated the denial rate at each documentation completeness level to examine how denial frequency changed as documentation completeness increased. Claims with documentation completeness of 0.49 and below had a 100% denial rate, while claims with documentation completeness of 0.73 and above had a 0% denial rate.
+/* Documentation completeness may be associated with claim denials. I calculated the denial rate at each documentation completeness level to examine how denial frequency changed as documentation completeness increased. Claims with documentation completeness of 0.49 and below had a 100% denial rate, while claims with documentation completeness of 0.73 and above had a 0% denial rate.*/
   SELECT
   documentation_completeness,
   COUNT(*) AS total_claims,
