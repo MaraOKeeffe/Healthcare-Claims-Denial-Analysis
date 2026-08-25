@@ -1,4 +1,4 @@
-Documentation completeness may play a role in claims denials. I ran a query comparing the highest and lowest levels of documentation completion and compared to denial rate. For documentation completeness of 0.73 and above, there is a 0% denial rate. At 0.49 documentation completeness and below, there is a 100% denial rate. There is also a range beginning at 0.5 where claims may only be partially paid.
+Documentation completeness may be associated with claim denials. I calculated the denial rate at each documentation completeness level to examine how denial frequency changed as documentation completeness increased. Claims with documentation completeness of 0.49 and below had a 100% denial rate, while claims with documentation completeness of 0.73 and above had a 0% denial rate.
   SELECT
   documentation_completeness,
   COUNT(*) AS total_claims,
