@@ -1,2 +1,0 @@
-Counts all claims in the dataset
-Total Claims = COUNTROWS('claims_main - claims_main csv (1)')
