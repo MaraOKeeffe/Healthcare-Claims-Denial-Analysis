@@ -1,6 +1,8 @@
 # Healthcare-Claims-Denial-Analysis  
 ## Project Overview  
-I designed this project to identify the root causes of claims denials across a dataset of 120,000 healthcare claims, testing whether documentation completeness, provider specialty, payer type, and diagnosis code are associated with denial risk. Using a synthesized dataset from Kaggle, I analyzed denial reason codes and denial rates across each of these factors to isolate which ones are associated with denial outcomes.
+This project identifies the root causes of claims denials across a dataset of 120,000 healthcare claims, testing whether documentation completeness, provider specialty, payer type, and diagnosis code are associated with denial risk. Using a synthesized dataset from Kaggle, I analyzed denial reason codes and denial rates across each of these factors to isolate which ones are associated with denial outcomes.
+
+![screenshot of dashboard](claims_denials_outcomes.png)
 ## Business Problem  
 Health insurance denials are a massive issue in our healthcare system and affect providers and patients alike. Denials account for increased administrative costs, delayed care, long waits for reimbursement, and barriers for patients. Without knowing the main drivers of claims denials, it is difficult for providers and patients to avoid a claim being denied.  
 ## Business Questions  
@@ -46,7 +48,6 @@ Variables included:
 - There is no clear pattern of denial between essential hypertension and orthopedic surgery; rather, essential hypertension appears the most in the dataset and is not a specific reason for orthopedic surgery denials
 
 ## Power BI Dashboard
-![screenshot of dashboard](claims_denials_outcomes.png)
 - Denial rate and denial amount scatterplot: compares denial rate with denied claim value across ICD-10 diagnoses to identify whether diagnoses with higher denial rates also account for greater dollar value in denied claims
 - Denials by documentation completeness stacked column chart: displays the breakdown of paid, partially paid, pending, and denied claims across documentation completeness levels, making changes in claim outcome visible as documentation completeness increases
 - Decomposition tree: Enables exploration of denied claim value across provider specialty, denial reason code, primary ICD-10 code, and payer type to identify patterns and investigate potential contributors to denials
